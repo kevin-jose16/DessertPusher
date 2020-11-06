@@ -188,6 +188,7 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
     /** Lifecycle Methods **/
     override fun onStart() {
         super.onStart()
+
         Timber.i("onStart Called")
     }
 
